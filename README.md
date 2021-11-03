@@ -11,3 +11,7 @@ yarn install
 ```
 yarn dev
 ```
+
+## IMAGEM DO PROJETO
+
+![PROJECT](https://user-images.githubusercontent.com/77307756/140161123-78cba447-c5b4-47da-9fbe-aaec56fcd27c.png)
