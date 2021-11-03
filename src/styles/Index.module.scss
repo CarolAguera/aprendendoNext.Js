@@ -2,6 +2,7 @@
 .flex {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding-bottom: 5rem;
   .text {
     span {
       top: 95px;
@@ -15,6 +16,7 @@
       font-size: 72px;
       line-height: 80px;
       width: 503px;
+      margin: 0;
     }
   }
 }
@@ -66,5 +68,101 @@
         border-radius: 7px;
       }
     }
+  }
+}
+.background {
+  background-color: #141414;
+}
+.formacao {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: #141414;
+  color: #fff;
+  padding: 5rem 0;
+  .textoPreto {
+    h1 {
+      font-family: "Fira Sans";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 144px;
+      line-height: 144px;
+      text-transform: uppercase;
+      color: #000;
+      word-wrap: break-word;
+      width: 329px;
+    }
+  }
+  .formacaoGrid {
+    width: 100%;
+    .paragrafo {
+      max-width: 600px;
+      font-size: 24px;
+      line-height: 32px;
+      color: #a3a3a3;
+    }
+    .formacoes {
+      display: grid;
+      grid-template-columns: 25% 25% 25%;
+      justify-content: space-between;
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        background: #090909;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        h6,
+        p {
+          color: #a3a3a3;
+        }
+      }
+    }
+    .cursos {
+      padding-top: 3rem;
+      h5 {
+        color: #a3a3a3;
+      }
+      div {
+        display: flex;
+        justify-content: space-between;
+        h4 {
+          font-size: 18px;
+          line-height: 20px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 20px;
+          color: #8f8f8f;
+        }
+      }
+    }
+  }
+}
+.footer {
+  background-color: #000000;
+  .paragrafoFooter {
+    max-width: 429px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #cccccc;
+    margin: 0;
+  }
+  span {
+    top: -48px;
+  }
+  footer {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #8f8f8f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .rodape {
+    padding: 2rem 0;
+    color: #8F8F8F;
+    margin: 0;
   }
 }
