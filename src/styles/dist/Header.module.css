@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+}
+.nav h1 {
+  margin: 0;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.nav ul li {
+  padding: 0 2rem;
+  list-style: none;
+}
