@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap");
+.flex {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  .text {
+    span {
+      top: 95px;
+      left: -26px;
+    }
+    h1 {
+      position: relative;
+      font-family: "Fira Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 80px;
+      width: 503px;
+    }
+  }
+}
+.experiencia {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  .texto {
+    h1 {
+      font-family: "Fira Sans";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 144px;
+      line-height: 144px;
+      text-transform: uppercase;
+      color: #e0e0e0;
+      word-wrap: break-word;
+      width: 329px;
+    }
+  }
+  .texto2 {
+    width: 500px;
+  }
+  .portifolioFilho {
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    .text {
+      max-width: 400px;
+    }
+    .developer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 240px;
+      h3 {
+        font-size: 1.4rem;
+      }
+    }
+    .lista {
+      display: flex;
+      justify-content: space-between;
+      p {
+        background-color: #fff;
+        margin: 0;
+        padding: 0.3rem;
+        border-radius: 7px;
+      }
+    }
+  }
+}

@@ -1,17 +1,18 @@
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
-  
-  h1{
+  padding: 2rem 0;
+
+  h1 {
     margin: 0;
   }
-  ul{
+  ul {
     display: flex;
     align-items: center;
     padding: 0;
     margin: 0;
   }
-  ul li{
+  ul li {
     padding: 0 2rem;
     list-style: none;
   }
